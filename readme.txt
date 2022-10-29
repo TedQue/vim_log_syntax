@@ -184,7 +184,11 @@ $VIMRUNTIME/filetype.vim 文件在设置完默认的文件类型之后,执行命
 	unlet s:cpo_save
 
 5. 安装
-复制源码包到 ~/.vim/ 即可
+(a) 复制源码包到 ~/.vim/ 即可
+(b) Vim-Plug
+	call plug#begin()
+	Plug 'TedQue/vim_log_syntax'
+	call plug#end()
 
 6. screenshot
 Ubuntu 18.04 终端默认的亮紫色背景非常费眼睛,改为前景色: #B0B0B0 背景色: #2E3436 内置调色板: Tango
